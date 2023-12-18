@@ -1,0 +1,22 @@
+seagate_interview_pseudo_code.txt
+/*
+Clk 	__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__|͞͞  ͞ |__ 
+Req	_____________|͞͞  ͞ |____________|͞͞  ͞ |_____________________________ 
+Ack 	____________________________________________|͞͞  ͞ |___________ 
+*/
+// FSM for Detecting error states.
+// Loop through all the incoming state changes
+while(hasNext())
+enum {
+    req_expected
+    ack_expected
+}
+// Check state
+if (req_expected && (next_state != req)) {
+    log("error 0");
+} else if (ack_expected && (next_state != ack)) {
+    log("error 1");
+}
+// Check clock counts
+
+// End loop
