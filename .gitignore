@@ -1,0 +1,3 @@
+# Ignore cpp binaries.
+**/*.o
+**/contiguous_subarrays
